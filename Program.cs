@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using xxkUI.Form;
 
-//
+
 namespace xxkUI
 {
     static class Program
@@ -26,7 +26,7 @@ namespace xxkUI
             {
                 // Application.EnableVisualStyles();
                 // Application.SetCompatibleTextRenderingDefault(false);
-                //Application.Run(new frm_SplashAhead());
+                //Application.Run(new frm_SplashAhead());这是一个测试
 
                 AppDomain.CurrentDomain.AssemblyResolve += Resolver;
                 LoadApp();
